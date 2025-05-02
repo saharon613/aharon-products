@@ -40,8 +40,8 @@ public class ProductDetailsFrame extends JFrame {
         addField(detailsPanel, "Weight: " + product.weight + "kg");
 
         if (product.dimensions != null) {
-            addField(detailsPanel, "Dimensions (WxHxD): " + product.dimensions.width + " x " +
-                    product.dimensions.height + " x " + product.dimensions.depth);
+            addField(detailsPanel, "Dimensions (WxHxD): " + product.dimensions.width + " x "
+                    + product.dimensions.height + " x " + product.dimensions.depth);
         }
 
         addField(detailsPanel, "Warranty Info: " + product.warrantyInformation);
