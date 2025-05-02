@@ -15,7 +15,7 @@ public class ProductsFrame extends JFrame {
         setTitle("Products");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 600);
-        setLayout(new GridLayout(3,3));
+        setLayout(new GridLayout(3, 3));
         for (int i = 0; i < labels.length; i++) {
             labels[i] = new JLabel();
             add(labels[i]);

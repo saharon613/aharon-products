@@ -30,10 +30,9 @@ public class ProductsController {
                 Image image = ImageIO.read(url);
                 ImageIcon imageIcon = new ImageIcon(image);
                 imageLabels[i].setIcon(imageIcon);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
-                catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
         }
     }
 }

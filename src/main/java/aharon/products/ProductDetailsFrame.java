@@ -6,8 +6,7 @@ import java.awt.*;
 import java.io.IOException;
 import java.net.URL;
 
-public class ProductDetailsFrame extends JFrame
-{
+public class ProductDetailsFrame extends JFrame {
     public ProductDetailsFrame(Product product) {
         setTitle(product.title);
         setSize(400, 500);
